@@ -26,7 +26,7 @@ public class SocketHandler {
 
     public boolean connect() {
         try {
-            socket = new Socket("127.0.0.1", 2382);
+            socket = new Socket("73.237.204.137", 25030);
             in = new DataInputStream(socket.getInputStream());
             out = new DataOutputStream(socket.getOutputStream());
             listen();
